@@ -1,5 +1,5 @@
 using System;
-class test
+class hello
 {
   static void Main(string[] args) 
   {
@@ -16,21 +16,21 @@ class test
     string publisher = Console.ReadLine();
 
     Console.WriteLine("Número de páginas: ");
-    string pgnumber = Console.ReadLine();
+    bool success = int.TryParse(Console.ReadLine(), out int pgnumber);
 
     Console.WriteLine("Idioma: ");
     string lang = Console.ReadLine();
 
     Console.WriteLine("Data de publicação (dd/mm/yy): ");
-    string date = Console.ReadLine();
-    
+    bool success2 = DateTime.TryParse(Console.ReadLine(),out DateTime date);
+
     Console.Clear();
 
     Console.WriteLine("Livro cadastrado com sucesso!");
     Console.WriteLine($"Livro: {title} - {subtitle}");
     Console.WriteLine($"Autor: {author}");
     Console.WriteLine($"Editora: {publisher}");
-    Console.WriteLine($"Detalhes: Publicado em {date} com {pgnumber} páginas em {lang}");
+    Console.WriteLine($"Detalhes: Publicado em {date.ToShortDateString} com {pgnumber} páginas em {lang}");
     
     /*
     Console.WriteLine("Olá!");
