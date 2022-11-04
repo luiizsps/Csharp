@@ -16,21 +16,21 @@ class hello
     string publisher = Console.ReadLine();
 
     Console.WriteLine("Número de páginas: ");
-    bool success = int.TryParse(Console.ReadLine(), out int pgnumber);
+    bool success_page = int.TryParse(Console.ReadLine(), out int pgnumber);
 
     Console.WriteLine("Idioma: ");
     string lang = Console.ReadLine();
 
     Console.WriteLine("Data de publicação (dd/mm/yy): ");
-    bool success2 = DateTime.TryParse(Console.ReadLine(),out DateTime date);
-
+    bool success_date = DateTime.TryParse(Console.ReadLine(), out DateTime date);
+    
     Console.Clear();
 
     Console.WriteLine("Livro cadastrado com sucesso!");
     Console.WriteLine($"Livro: {title} - {subtitle}");
     Console.WriteLine($"Autor: {author}");
     Console.WriteLine($"Editora: {publisher}");
-    Console.WriteLine($"Detalhes: Publicado em {date.ToShortDateString} com {pgnumber} páginas em {lang}");
+    Console.WriteLine($"Detalhes: Publicado em {date.ToString("MM/dd/yyyy")} com {pgnumber} páginas em {lang}");
     
     /*
     Console.WriteLine("Olá!");
