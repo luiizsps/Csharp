@@ -1,0 +1,6 @@
+__What is C#?__
+
+O C# é uma linguagem moderna, orientada a objetos e fortemente tipada. O C# permite o desenvolvimento de diversos aplicativos
+seguros e robustos, que são executados no .NET, que por sua vez é um conjunto de bibliotecas e um sistema de execução virtual. 
+O C# tem suas raízes na família de linguagens C, então programadores que tem ou ja tiveram contado com linguagens como: Java,
+C ou C++ vão enxergar semelhanças na estrutura dessas linguagens como C#.
