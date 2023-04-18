@@ -1,0 +1,20 @@
+__História do C#__
+
+Na inicio da década de 90, a microsoft, gigantesca empresa de software, utilizava diversas linguagens de programação na 
+construção de seus projeto, e essa logística gerava um problema, se um programador precisasse migrar de um projeto para 
+outro, ele precisava não somente aprender uma nova linguagem de programação, como também as bibliotecas necessárias para
+determinada finalidade. Tendo em vista esses obstáculos, a Microsoft decidiu utilizar o Java, por ser uma linguagem
+multiplataforma, permitindo a criação de programas executáveis em diversos ambientes, e também por possuir bibliotecas que
+poderiam facilitar muito a solução de problemas específicos, a Microsoft chegou até mesmo a entrar em acordo com a Sun
+para utilizar o Java em seu sistema (pausa dramática). Todavia, havia ainda um grave problema: a linguagem java não se 
+comunicava bem com as bibliotecas de linguagem nativas (linguagem de máquina) até então existentes. Para resolver
+este problema, a microsoft decidiu criar sua própria implementação do Java, chamando-a de J++. O J++ trouxe consigo o que
+a microsoft precisava, extensões proprietárias que resolviam o problema da comunicação com código nativo, mas essa versão
+do Java poderia apenas ser executada no ambiente Microsoft, e não em nenhum outro ambiente Java, o que violava o acordo 
+feito com a Sun, que por essa razão foi processada. Dessa forma, a Microsoft retornou a estaca zero, não podendo utilizar 
+mais o Java ou o J++. Assim, eles começaram a desenvolver uma plataforma, inicialmente capaz de ser utilizada em diferentes
+linguagens, sendo assim, o programador ao mudar de projeto, precisaria aprender apenas a liguagem, pois as bibliotecas
+seriam as mesmas. Plataforma essa que viria a ser chamada de .NET. Mas além da plataforma, a microsoft queria sua própria
+linguagem de programação, e foi assim que surgiu o projeto COOL (c-like object oriented language). Anders Hejlsberg foi
+escolhido para liderar o projeto. Então, finalmente, no ano de 2002 foi lançada a linguagem C#, junto ao ambiente .NET.
+
